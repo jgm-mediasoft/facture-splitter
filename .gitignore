@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environnements virtuels
+venv/
+.env/
+.env*/
+
+# VSCode
+.vscode/
+
+# Streamlit
+.streamlit/
+
+# Données, PDF, sorties
+data/
+*.pdf
+
+# Modèles YOLO ou lourds
+*.pt
+runs*/
+runs_tampon*/
+
+# Fichiers générés
+*.txt
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
