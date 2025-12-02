@@ -1,0 +1,29 @@
+# --- CORE PYTHON LIBS ---
+numpy
+pandas
+Pillow
+
+# --- MACHINE LEARNING / DEEP LEARNING ---
+torch
+torchvision
+ultralytics                  # YOLOv8 / YOLO11
+opencv-python
+opencv-contrib-python        # QRCodeDetector amélioré
+
+# --- OCR ---
+pytesseract
+transformers
+sentencepiece
+
+# --- PDF PROCESSING ---
+PyMuPDF                       # fitz
+
+# --- STREAMLIT APPLICATIONS ---
+streamlit
+
+# --- IMAGE PROCESSING / UTILITIES ---
+scikit-image
+python-multipart
+
+# --- OPTIONAL UTILS ---
+tqdm
