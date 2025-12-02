@@ -24,8 +24,11 @@ data/
 runs*/
 runs_tampon*/
 
-# Fichiers générés
+# Fichiers texte générés
 *.txt
+
+# MAIS on garde requirements.txt dans Git
+!requirements.txt
 
 # Mac / Windows
 .DS_Store
