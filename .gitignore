@@ -1,35 +1,68 @@
+# ======================
 # Python
+# ======================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
+# ======================
 # Environnements virtuels
+# ======================
 venv/
+.venv/
 .env/
 .env*/
 
-# VSCode
+# ======================
+# IDE
+# ======================
 .vscode/
+.idea/
 
+# ======================
 # Streamlit
+# ======================
 .streamlit/
+.streamlit/secrets.toml
 
-# Données, PDF, sorties
+# ======================
+# Données & documents
+# ======================
 data/
 *.pdf
+*.jpg
+*.png
 
-# Modèles YOLO ou lourds
+# ======================
+# YOLO / ML
+# ======================
 *.pt
+*.onnx
 runs*/
 runs_tampon*/
 
-# Fichiers texte générés
-*.txt
+# ======================
+# Outputs générés
+# ======================
+*.log
+output*.txt
+ocr*.txt
 
-# MAIS on garde requirements.txt dans Git
+# ======================
+# PyInstaller (IGNORÉ DÉFINITIVEMENT)
+# ======================
+build/
+dist/
+
+# ======================
+# Exceptions importantes
+# ======================
 !requirements.txt
 
-# Mac / Windows
+# ======================
+# OS
+# ======================
 .DS_Store
 Thumbs.db
+

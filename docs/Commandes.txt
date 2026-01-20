@@ -1,0 +1,4 @@
+cd C:\ml\facture_splitter
+streamlit run app_prediction_yolo_v30.py --server.port=8505
+
+streamlit run app_apprentissage_ML.py --server.port=8504
