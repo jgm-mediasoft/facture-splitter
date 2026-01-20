@@ -9,7 +9,7 @@ Ce projet permet d’analyser automatiquement des factures PDF afin de :
 
 ## 🚀 Principales applications
 
-- `app_prediction_yolo_v20.py`  
+- `app_prediction_yolo_v30_1.py`  
   Détection des tampons + découpage des factures.
 
 - `app_bv_only.py`  
