@@ -50,6 +50,12 @@ output*.txt
 ocr*.txt
 
 # ======================
+# PyInstaller (IGNORÉ DÉFINITIVEMENT)
+# ======================
+build/
+dist/
+
+# ======================
 # Exceptions importantes
 # ======================
 !requirements.txt
